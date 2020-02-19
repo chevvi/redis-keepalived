@@ -41,3 +41,8 @@ sudo chmod -R +x /etc/keepalived/scripts
 ```
 
 Start the server and check statuses.
+
+Сonvenient to use:
+watch bash redis_port_check.sh <IP> <PORT> ; echo $?
+from your PC when you want to ckeck redis. 
+How does ipvs work when real server is shutting down.
